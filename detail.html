@@ -29,7 +29,93 @@
     <a class="arrow left-arrow" href="#" id="leftArrow">
       <img alt="back" src="./assets/chevron_left.svg">
     </a>
+    <div class="detail-img-wrapper">
+      <img alt="" src="">
+    </div>
+    <a class="arrow right-arrow" href="#">
+      <img alt="forward" id="rightArrow" src="./assets/chevron_right.svg">
+    </a>
   </div>
+  <div class="detail-card-detail-wrapper">
+    <div class="power-wrapper">
+      <!--      Type of pokemon-->
+      <p class="body3-fonts type grass"></p>
+      <p class="body3-fonts type poison"></p>
+    </div>
+    <p class="body2-fonts about-text">About</p>
+
+    <div class="pokemon-detail-wrapper">
+      <!--      Main stats-->
+      <div class="pokemon-detail-wrap">
+        <div class="pokemon-detail">
+          <img alt="weight" src="./assets/weight.svg">
+          <p class="body3-fonts weight"></p>
+        </div>
+        <p class="caption-fonts">Weight</p>
+      </div>
+
+      <div class="pokemon-detail-wrap">
+        <div class="pokemon-detail">
+          <img alt="weight" src="./assets/height.svg">
+          <p class="body3-fonts height"></p>
+        </div>
+        <p class="caption-fonts">Height</p>
+      </div>
+      <div class="pokemon-detail-wrap">
+        <div class="pokemon-detail move">
+          <p class="caption-fonts">Move</p>
+        </div>
+      </div>
+    </div>
+    <p class="body3-fonts pokemon-description"></p>
+    <p class="body2-fonts about-text">Base Stats</p>
+
+    <!--    Pokemon stats-->
+    <div class="stats-wrapper">
+
+      <div class="stats-wrap" data-stat="HP">
+        <p class="body3-fonts stats">HP</p>
+        <p class="body3-fonts"></p>
+        <progress
+            class="progress-bar"
+            max="100"
+            value="">
+        </progress>
+      </div>
+
+      <div class="stats-wrap" data-stat="ATK">
+        <p class="body3-fonts stats">ATK</p>
+        <p class="body3-fonts"></p>
+        <progress
+            class="progress-bar"
+            max="100"
+            value="">
+        </progress>
+      </div>
+
+      <div class="stats-wrap" data-stat="DEF">
+        <p class="body3-fonts stats">DEF</p>
+        <p class="body3-fonts"></p>
+        <progress
+            class="progress-bar"
+            max="100"
+            value="">
+        </progress>
+      </div>
+
+      <div class="stats-wrap" data-stat="SATK">
+        <p class="body3-fonts stats">SATK</p>
+        <p class="body3-fonts"></p>
+        <progress
+            class="progress-bar"
+            max="100"
+            value="">
+        </progress>
+      </div>
+    </div>
+  </div>
+
+  <img alt="pokedex" class="detail-bg" src="./assets/pokedex.svg">
 </main>
 </body>
 </html>
